@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="LightWhite">#DFDADC</color>
+    <color name="Black">#0C0005</color>
+    <color name="white">#F9FCFC</color>
+    <color name="red">#E21B1B</color>
+    <color name="fbColor">#3b5998 </color>
+    <color name="dealsColor">#5187DB</color>
+</resources>

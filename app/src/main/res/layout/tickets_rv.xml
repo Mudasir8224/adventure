@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        app:cardCornerRadius="6dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:id="@+id/layoutimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewTickets"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewNameTickets"
+            android:text="Name Album"
+            android:textSize="14sp"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/mavenpro_semibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/ic_star"
+                android:layout_width="10dp"
+                android:layout_height="10dp">
+            </ImageView>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/ic_star"
+                android:layout_width="10dp"
+                android:layout_height="10dp">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/ic_star"
+                android:layout_width="10dp"
+                android:layout_height="10dp">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/ic_star"
+                android:layout_width="10dp"
+                android:layout_height="10dp">
+
+            </ImageView>
+
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/ic_starempty"
+                android:layout_width="10dp"
+                android:layout_height="10dp">
+
+            </ImageView>
+
+
+            <TextView
+                android:id="@+id/textViewNameOfWriteregory"
+                android:layout_marginLeft="12dp"
+                android:text="24  reviews"
+                android:fontFamily="@font/mavenpro_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="44dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewNameOfterCaegory"
+                android:layout_marginRight="12dp"
+                android:text="from"
+                android:textSize="12sp"
+                android:fontFamily="@font/mavenpro_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:id="@+id/textViewNameiteregory"
+                android:layout_marginRight="12dp"
+                android:text="$29"
+                android:textSize="12sp"
+                android:textColor="@color/red"
+                android:fontFamily="@font/mavenpro_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/viewLineDraw"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@color/LightWhite" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
